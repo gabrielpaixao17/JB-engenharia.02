@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(154, 184, 211);
+    background-size:cover;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* tire do comentario se quiser a cor de fundo sempre ativa(removendo as barras e o asterisco do inicio e do fim)*/
+    /* background-color: rgb(4, 199, 137); */
+    backdrop-filter: blur(5px);
+    background-color: rgb(135, 173, 206);
+
+    margin: auto;
+    height: fit-content;
+    
+    padding: 15px;
+
+
+    color: rgb(20, 20, 20);
+
+    transition: all 1s;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+}
+
+/* remova se não gostou do efeito de hover(passar o mouse em cima)*/
+header .texto{
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* remova se não gostou do efeito de hover(passar o mouse em cima)*/
+header:hover{
+    background-color: rgb(112, 148, 179);
+}
+
+/* remova se não gostou do efeito de hover(passar o mouse em cima)*/
+header:hover .texto{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.texto{
+    margin-left: auto;
+}
+
+.imgSF {
+
+    max-width: 70px;
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.projetos{
+    display: flex;
+    flex-flow: row;
+}
+
+.projetos img{
+    max-width: 360px;
+    
+    float:left;
+
+    margin: 20px;
+}
+.bt1{
+    margin: 5px;
+      font-size: 16px; 
+      padding: 10px; 
+      background-color: #3b73b3; 
+      text-align: center; 
+      border-radius: 15px;
+      border-color: antiquewhite;
+      cursor: pointer;
+}
+.bt2{
+    margin: 5px;
+      font-size: 16px; 
+      padding: 10px; 
+      background-color: #3b73b3; 
+      text-align: center; 
+      border-radius: 15px;
+      border-color: antiquewhite;
+      cursor: pointer;
+}
+
+.msg {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.textbutton {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:azure;
+}
+.bode{
+  margin-inline-start: 20%;
+  padding-top: 12px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: 400;
+  color:rgb(0, 0, 0);
+  position:-ms-page;
+  align-items: center;
+  background-color: #6882a5;
+  border-radius: 15px;
+  height: 100px;
+  width: 800px;
+  text-align: center;
+  
+
+}
+.titu{
+    text-align: center;
+    padding-left: 12px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.titulo{
+    padding: 21px;
+}
+.Missão{
+    margin: 50px;
+}
+section{
+    margin: 29px;
+}
+
+
+
+
+
+
+ 
